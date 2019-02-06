@@ -85,6 +85,9 @@
     <Compile Include="Hash Table\Practical Application - Hash Set\IntersectionofTwoArrays.cs" />
     <Compile Include="Hash Table\Practical Application - Hash Set\SingleNumberQ.cs" />
     <Compile Include="Linked List\Singly Linked List\MyLinkedList.cs" />
+    <Compile Include="Linked List\Two Pointer Technique\IntersectionofTwoLinkedLists.cs" />
+    <Compile Include="Linked List\Two Pointer Technique\LinkedListCycle.cs" />
+    <Compile Include="Linked List\Two Pointer Technique\LinkedListCycleII.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question1.cs" />
