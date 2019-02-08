@@ -88,6 +88,7 @@
     <Compile Include="Linked List\Two Pointer Technique\IntersectionofTwoLinkedLists.cs" />
     <Compile Include="Linked List\Two Pointer Technique\LinkedListCycle.cs" />
     <Compile Include="Linked List\Two Pointer Technique\LinkedListCycleII.cs" />
+    <Compile Include="Linked List\Two Pointer Technique\RemoveNthNodeFromEndofList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question1.cs" />
