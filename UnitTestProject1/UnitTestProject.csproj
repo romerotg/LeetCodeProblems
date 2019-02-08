@@ -86,6 +86,10 @@
     <Compile Include="Hash Table\Practical Application - Hash Set\TestHappyNumber.cs" />
     <Compile Include="Hash Table\Practical Application - Hash Set\TestIntersectionofTwoArrays.cs" />
     <Compile Include="Hash Table\Practical Application - Hash Set\TestSingleNumberQ.cs" />
+    <Compile Include="Linked List\Classic Prolems\TestOddEvenLinkedList.cs" />
+    <Compile Include="Linked List\Classic Prolems\TestPalindromeLinkedList.cs" />
+    <Compile Include="Linked List\Classic Prolems\TestRemoveLinkedListElements.cs" />
+    <Compile Include="Linked List\Classic Prolems\TestReverseLinkedList.cs" />
     <Compile Include="Linked List\Singly Linked List\TestMyLinkedList.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestIntersectionofTwoLinkedLists.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycle.cs" />
