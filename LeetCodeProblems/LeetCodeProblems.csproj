@@ -87,6 +87,8 @@
     <Compile Include="Linked List\Classic Problems\OddEvenLinkedList.cs" />
     <Compile Include="Linked List\Classic Problems\PalindromeLinkedList.cs" />
     <Compile Include="Linked List\Classic Problems\RemoveLinkedListElements.cs" />
+    <Compile Include="Linked List\Conclusion\MergeTwoSortedLists.cs" />
+    <Compile Include="Linked List\Doubly Linked List\MyLinkedList.cs" />
     <Compile Include="Linked List\Singly Linked List\MyLinkedList.cs" />
     <Compile Include="Linked List\Two Pointer Technique\IntersectionofTwoLinkedLists.cs" />
     <Compile Include="Linked List\Two Pointer Technique\LinkedListCycle.cs" />

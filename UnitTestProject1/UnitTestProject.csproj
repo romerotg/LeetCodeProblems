@@ -90,6 +90,8 @@
     <Compile Include="Linked List\Classic Prolems\TestPalindromeLinkedList.cs" />
     <Compile Include="Linked List\Classic Prolems\TestRemoveLinkedListElements.cs" />
     <Compile Include="Linked List\Classic Prolems\TestReverseLinkedList.cs" />
+    <Compile Include="Linked List\Conclusion\TestMergeTwoSortedLists.cs" />
+    <Compile Include="Linked List\Doubly Linked List\TestMyLinkedList.cs" />
     <Compile Include="Linked List\Singly Linked List\TestMyLinkedList.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestIntersectionofTwoLinkedLists.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycle.cs" />
