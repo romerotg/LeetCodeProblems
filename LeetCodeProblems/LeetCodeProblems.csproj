@@ -64,6 +64,9 @@
     <Compile Include="Array and String\Two-Pointer Technique\RemoveElementQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\ReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TwoSumII.cs" />
+    <Compile Include="Binary Tree\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="Binary Tree\BinaryTreePostorderTraversal.cs" />
+    <Compile Include="Binary Tree\BinaryTreePreorderTraversal.cs" />
     <Compile Include="Hash Table\Conclusion\FourSumII.cs" />
     <Compile Include="Hash Table\Conclusion\RandomizedSet.cs" />
     <Compile Include="Hash Table\Conclusion\JewelsandStones.cs" />
@@ -87,7 +90,11 @@
     <Compile Include="Linked List\Classic Problems\OddEvenLinkedList.cs" />
     <Compile Include="Linked List\Classic Problems\PalindromeLinkedList.cs" />
     <Compile Include="Linked List\Classic Problems\RemoveLinkedListElements.cs" />
+    <Compile Include="Linked List\Conclusion\AddTwoNumbersQ.cs" />
+    <Compile Include="Linked List\Conclusion\CopyListwithRandomPointer.cs" />
+    <Compile Include="Linked List\Conclusion\FlattenaMultilevelDoublyLinkedList.cs" />
     <Compile Include="Linked List\Conclusion\MergeTwoSortedLists.cs" />
+    <Compile Include="Linked List\Conclusion\RotateList.cs" />
     <Compile Include="Linked List\Doubly Linked List\MyLinkedList.cs" />
     <Compile Include="Linked List\Singly Linked List\MyLinkedList.cs" />
     <Compile Include="Linked List\Two Pointer Technique\IntersectionofTwoLinkedLists.cs" />
