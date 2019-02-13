@@ -9,7 +9,7 @@ namespace UnitTestProject1.Binary_Tree.Traverse_A_Tre
 	[TestClass]
 	public class TestBinaryTreePreorderTraversal
 	{
-		[DataTestMethod]
+		[TestMethod]
 		public void TestMethod1()
 		{
 			// Arrange
@@ -26,7 +26,7 @@ namespace UnitTestProject1.Binary_Tree.Traverse_A_Tre
 			CollectionAssert.AreEqual(expected, actual?.ToArray());
 		}
 
-		[DataTestMethod]
+		[TestMethod]
 		public void TestMethod2()
 		{
 			// Arrange

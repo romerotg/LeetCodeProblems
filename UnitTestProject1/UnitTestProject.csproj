@@ -70,6 +70,9 @@
     <Compile Include="Array and String\Two-Pointer Technique\TestRemoveElementQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TestReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TestTwoSumII.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\TestMaximumDepthofBinaryTree.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\TestPathSum.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\TestSymmetricTree.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\TestBinaryTreeInorderTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\TestBinaryTreeLevelTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\TestBinaryTreePostorderTraversal.cs" />

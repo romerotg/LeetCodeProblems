@@ -9,7 +9,7 @@ namespace UnitTestProject1.Binary_Tree.Traverse_A_Tre
 	[TestClass]
 	public class TestBinaryTreeLevelTraversal
 	{
-		[DataTestMethod]
+		[TestMethod]
 		public void TestMethod1()
 		{
 			// Arrange

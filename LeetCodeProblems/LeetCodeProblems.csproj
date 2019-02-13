@@ -64,6 +64,9 @@
     <Compile Include="Array and String\Two-Pointer Technique\RemoveElementQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\ReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TwoSumII.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\MaximumDepthofBinaryTree.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\PathSum.cs" />
+    <Compile Include="Binary Tree\Solve Problems Recursively\SymmetricTree.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreeInorderTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreeLevelTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreePostorderTraversal.cs" />
