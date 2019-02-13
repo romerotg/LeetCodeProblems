@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCodeProblems.Binary_Tree
+namespace LeetCodeProblems.Binary_Tree.Traverse_A_Tre
 {
 	public class BinaryTreePreorderTraversal
 	{

@@ -1,10 +1,10 @@
-﻿using LeetCodeProblems.Binary_Tree;
+﻿using LeetCodeProblems.Binary_Tree.Traverse_A_Tre;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
-using static LeetCodeProblems.Binary_Tree.BinaryTreePostorderTraversal;
+using static LeetCodeProblems.Binary_Tree.Traverse_A_Tre.BinaryTreePostorderTraversal;
 
-namespace UnitTestProject1.Binary_Tree
+namespace UnitTestProject1.Binary_Tree.Traverse_A_Tre
 {
 	[TestClass]
 	public class TestBinaryTreePostorderTraversal
