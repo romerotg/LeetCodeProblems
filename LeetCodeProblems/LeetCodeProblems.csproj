@@ -66,6 +66,7 @@
     <Compile Include="Array and String\Two-Pointer Technique\TwoSumII.cs" />
     <Compile Include="Binary Tree\Conclusion\ConstructBinaryTreefromInorderandPostorderTraversal.cs" />
     <Compile Include="Binary Tree\Conclusion\ConstructBinaryTreefromPreorderandInorderTraversal.cs" />
+    <Compile Include="Binary Tree\Conclusion\LowestCommonAncestorofaBinaryTree.cs" />
     <Compile Include="Binary Tree\Conclusion\PopulatingNextRightPointersinEachNode.cs" />
     <Compile Include="Binary Tree\Conclusion\PopulatingNextRightPointersinEachNodeII.cs" />
     <Compile Include="Binary Tree\Solve Problems Recursively\MaximumDepthofBinaryTree.cs" />

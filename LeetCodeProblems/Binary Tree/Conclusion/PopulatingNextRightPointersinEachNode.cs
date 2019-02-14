@@ -14,18 +14,18 @@
 		public void Connect(TreeLinkNode root)
 		{
 			if (root != null)
-				_Connect(root.left, root.right);
-		}
+			{
+				if (root.left != null && root.right != null)
+				{
+					root.left.next = root.right;
 
-		private void _Connect(TreeLinkNode left, TreeLinkNode right)
-		{
-			if (left == null || right == null)
-				return;
+					if (root.next != null)
+						root.right.next = root.next.left;
 
-			left.next = right;
-			_Connect(left.left, left.right);
-			_Connect(left.right, right.left);
-			_Connect(right.left, right.right);
+					Connect(root.right);
+					Connect(root.left);
+				}
+			}
 		}
 	}
 }

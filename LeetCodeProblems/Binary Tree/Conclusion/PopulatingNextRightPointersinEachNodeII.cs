@@ -15,27 +15,38 @@
 		{
 			if (root != null)
 			{
-				TreeLinkNode current = root;
-				TreeLinkNode currentTemp = root.left;
-
-				while (current != null)
+				if (root.left != null && root.right != null)
 				{
-					if (current.left != null && current.right != null)
-						current.left.next = current.right;
-
-					if (current.right != null && current.next != null)
-					{
-						current.right.next = current.next.left;
-						current = current.next;
-					}
-					else
-					{
-						current = currentTemp;
-						if (currentTemp != null)
-							currentTemp = currentTemp.left;
-					}
+					root.left.next = root.right;
+					root.right.next = _GetClosestChildNodeToTheRight(root.next);
+					Connect(root.right);
+					Connect(root.left);
+				}
+				else if (root.left != null)
+				{
+					root.left.next = _GetClosestChildNodeToTheRight(root.next);
+					Connect(root.left);
+				}
+				else if (root.right != null)
+				{
+					root.right.next = _GetClosestChildNodeToTheRight(root.next);
+					Connect(root.right);
 				}
 			}
+		}
+
+		private TreeLinkNode _GetClosestChildNodeToTheRight(TreeLinkNode node)
+		{
+			if (node == null)
+				return null;
+
+			if (node.left != null)
+				return node.left;
+
+			if (node.right != null)
+				return node.right;
+
+			return _GetClosestChildNodeToTheRight(node.next);
 		}
 	}
 }
