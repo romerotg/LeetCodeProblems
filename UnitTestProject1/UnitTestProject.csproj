@@ -109,6 +109,7 @@
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycle.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycleII.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestRemoveNthNodeFromEndofList.cs" />
+    <Compile Include="Questões Soltas\TestTextJustification.cs" />
     <Compile Include="TestQuestion1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
