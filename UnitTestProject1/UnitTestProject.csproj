@@ -73,6 +73,7 @@
     <Compile Include="Binary Tree\Conclusion\TestLowestCommonAncestorofaBinaryTree.cs" />
     <Compile Include="Binary Tree\Conclusion\TestPopulatingNextRightPointersinEachNode.cs" />
     <Compile Include="Binary Tree\Conclusion\TestPopulatingNextRightPointersinEachNodeII.cs" />
+    <Compile Include="Binary Tree\Conclusion\TestSerializeandDeserializeBinaryTree.cs" />
     <Compile Include="Binary Tree\Solve Problems Recursively\TestMaximumDepthofBinaryTree.cs" />
     <Compile Include="Binary Tree\Solve Problems Recursively\TestPathSum.cs" />
     <Compile Include="Binary Tree\Solve Problems Recursively\TestSymmetricTree.cs" />

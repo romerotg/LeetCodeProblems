@@ -56,8 +56,8 @@ namespace UnitTestProject1.Binary_Tree.Conclusion
 						index++;
 					}
 
+					nodesInLevel = nodesCurrentLevel.Count * 2;
 					nodesPreviousLevel = nodesCurrentLevel;
-					nodesInLevel *= 2;
 				}
 			}
 
