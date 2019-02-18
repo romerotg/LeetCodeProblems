@@ -1,0 +1,71 @@
+﻿using LeetCodeProblems.Queue_and_Stack.Queue_and_BFS;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace UnitTestProject1.Queue_and_Stack.Queue_and_BFS
+{
+	[TestClass]
+	public class TestNumberofIslands
+	{
+		[TestMethod]
+		public void TestMethod1()
+		{
+			// Arrange
+			char[,] grid = new char[,]
+			{
+				{ '1', '1', '1', '1', '0' },
+				{ '1', '1', '0', '1', '0' },
+				{ '1', '1', '0', '0', '0' },
+				{ '0', '0', '0', '0', '0' },
+			};
+			int expected = 1;
+			NumberofIslands question = new NumberofIslands();
+
+			// Act
+			int actual = question.NumIslands(grid);
+
+			// Assert
+			Assert.AreEqual(expected, actual);
+		}
+
+		[TestMethod]
+		public void TestMethod2()
+		{
+			// Arrange
+			char[,] grid = new char[,]
+			{
+				{ '1', '1', '0', '0', '0' },
+				{ '1', '1', '0', '0', '0' },
+				{ '0', '0', '1', '0', '0' },
+				{ '0', '0', '0', '1', '1' },
+			};
+			int expected = 3;
+			NumberofIslands question = new NumberofIslands();
+
+			// Act
+			int actual = question.NumIslands(grid);
+
+			// Assert
+			Assert.AreEqual(expected, actual);
+		}
+
+		[TestMethod]
+		public void TestMethod3()
+		{
+			// Arrange
+			char[,] grid = new char[,]
+			{
+				{'1', '1', '1'},
+				{'0', '1', '0'},
+				{'0', '1', '0'}
+			};
+			int expected = 1;
+			NumberofIslands question = new NumberofIslands();
+
+			// Act
+			int actual = question.NumIslands(grid);
+
+			// Assert
+			Assert.AreEqual(expected, actual);
+		}
+	}
+}

@@ -117,6 +117,8 @@
     <Compile Include="Question1.cs" />
     <Compile Include="Question2.cs" />
     <Compile Include="Questões Soltas\TextJustification.cs" />
+    <Compile Include="Queue and Stack\Queue and BFS\NumberofIslands.cs" />
+    <Compile Include="Queue and Stack\Queue\MyCircularQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
