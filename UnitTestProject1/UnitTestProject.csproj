@@ -114,6 +114,7 @@
     <Compile Include="Questões Soltas\TestTextJustification.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestNumberofIslands.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestOpentheLock.cs" />
+    <Compile Include="Queue and Stack\Queue and BFS\TestPerfectSquares.cs" />
     <Compile Include="Queue and Stack\Queue\TestMyCircularQueue.cs" />
     <Compile Include="TestQuestion1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
