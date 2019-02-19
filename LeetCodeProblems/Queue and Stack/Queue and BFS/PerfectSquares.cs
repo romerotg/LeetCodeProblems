@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace LeetCodeProblems.Queue_and_Stack.Queue_and_BFS
 {
@@ -11,7 +9,8 @@ namespace LeetCodeProblems.Queue_and_Stack.Queue_and_BFS
 			if (n <= 0)
 				return 0;
 
-			List<int> perfectSquares = _GetPossiblePerfectSquares(n);
+			List<int> perfectSquares = _GetPerfectSquares(n);
+			HashSet<int> visited = new HashSet<int>();
 
 			Queue<int> queue = new Queue<int>();
 			queue.Enqueue(0);
@@ -28,11 +27,14 @@ namespace LeetCodeProblems.Queue_and_Stack.Queue_and_BFS
 					if (sum == n)
 						return level;
 
-					for (int j = perfectSquares.Count - 1; j >= 0; j--)
+					for (int j = 0; j < perfectSquares.Count; j++)
 					{
 						int newSum = sum + perfectSquares[j];
-						if (newSum <= n)
+						if (newSum <= n && !visited.Contains(newSum))
+						{
+							visited.Add(newSum);
 							queue.Enqueue(newSum);
+						}
 					}
 				}
 
@@ -42,7 +44,7 @@ namespace LeetCodeProblems.Queue_and_Stack.Queue_and_BFS
 			return 0;
 		}
 
-		private List<int> _GetPossiblePerfectSquares(int n)
+		private List<int> _GetPerfectSquares(int n)
 		{
 			List<int> result = new List<int>();
 			int i = 1;
