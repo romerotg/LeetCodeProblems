@@ -118,6 +118,7 @@
     <Compile Include="Question2.cs" />
     <Compile Include="Questões Soltas\TextJustification.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\NumberofIslands.cs" />
+    <Compile Include="Queue and Stack\Queue and BFS\OpentheLock.cs" />
     <Compile Include="Queue and Stack\Queue\MyCircularQueue.cs" />
   </ItemGroup>
   <ItemGroup>
