@@ -121,7 +121,9 @@
     <Compile Include="Queue and Stack\Queue and BFS\OpentheLock.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\PerfectSquares.cs" />
     <Compile Include="Queue and Stack\Queue\MyCircularQueue.cs" />
+    <Compile Include="Queue and Stack\Stack and DFS\NumberofIslands.cs" />
     <Compile Include="Queue and Stack\Stack\DailyTemperaturesQ.cs" />
+    <Compile Include="Queue and Stack\Stack\EvaluateReversePolishNotation.cs" />
     <Compile Include="Queue and Stack\Stack\MinStack.cs" />
     <Compile Include="Queue and Stack\Stack\ValidParentheses.cs" />
   </ItemGroup>

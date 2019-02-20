@@ -116,7 +116,9 @@
     <Compile Include="Queue and Stack\Queue and BFS\TestOpentheLock.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestPerfectSquares.cs" />
     <Compile Include="Queue and Stack\Queue\TestMyCircularQueue.cs" />
+    <Compile Include="Queue and Stack\Stack and DFS\TestNumberofIslands.cs" />
     <Compile Include="Queue and Stack\Stack\TestDailyTemperaturesQ.cs" />
+    <Compile Include="Queue and Stack\Stack\TestEvaluateReversePolishNotation.cs" />
     <Compile Include="Queue and Stack\Stack\TestMinStack.cs" />
     <Compile Include="Queue and Stack\Stack\TestValidParentheses.cs" />
     <Compile Include="TestQuestion1.cs" />
