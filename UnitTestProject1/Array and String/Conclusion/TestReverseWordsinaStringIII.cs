@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestProject1.Array_and_String.Conclusion
+namespace Tests.Array_and_String.Conclusion
 {
 	[TestClass]
 	public class TestReverseWordsinaStringIII

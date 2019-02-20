@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using static LeetCodeProblems.Linked_List.Two_Pointer_Technique.RemoveNthNodeFromEndofList;
 
-namespace UnitTestProject1.Linked_List.Two_Pointer_Technique
+namespace Tests.Linked_List.Two_Pointer_Technique
 {
 	[TestClass]
 	public class TestRemoveNthNodeFromEndofList

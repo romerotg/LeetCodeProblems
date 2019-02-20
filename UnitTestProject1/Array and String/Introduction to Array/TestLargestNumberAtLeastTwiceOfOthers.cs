@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Array_and_String.Introduction_to_Array;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Array_and_String.Introduction_to_Array
+namespace Tests.Array_and_String.Introduction_to_Array
 {
 	[TestClass]
 	public class TestLargestNumberAtLeastTwiceOfOthers

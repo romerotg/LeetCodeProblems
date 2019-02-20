@@ -1,8 +1,7 @@
-﻿using System;
-using LeetCodeProblems;
+﻿using LeetCodeProblems;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1
+namespace Tests
 {
 	[TestClass]
 	public class TestQuestion1

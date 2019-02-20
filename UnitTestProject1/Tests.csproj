@@ -8,7 +8,7 @@
     <ProjectGuid>{DC32539B-907B-46FA-BA57-0F1511D34936}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject1</RootNamespace>
+    <RootNamespace>Tests</RootNamespace>
     <AssemblyName>UnitTestProject1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -116,6 +116,9 @@
     <Compile Include="Queue and Stack\Queue and BFS\TestOpentheLock.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestPerfectSquares.cs" />
     <Compile Include="Queue and Stack\Queue\TestMyCircularQueue.cs" />
+    <Compile Include="Queue and Stack\Stack\TestDailyTemperaturesQ.cs" />
+    <Compile Include="Queue and Stack\Stack\TestMinStack.cs" />
+    <Compile Include="Queue and Stack\Stack\TestValidParentheses.cs" />
     <Compile Include="TestQuestion1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

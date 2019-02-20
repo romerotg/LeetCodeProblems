@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using static LeetCodeProblems.Binary_Tree.Conclusion.LowestCommonAncestorofaBinaryTree;
 
-namespace UnitTestProject1.Binary_Tree.Conclusion
+namespace Tests.Binary_Tree.Conclusion
 {
 	[TestClass]
 	public class TestLowestCommonAncestorofaBinaryTree

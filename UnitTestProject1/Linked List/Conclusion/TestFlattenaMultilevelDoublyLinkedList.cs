@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using static LeetCodeProblems.Linked_List.Conclusion.FlattenaMultilevelDoublyLinkedList;
 
-namespace UnitTestProject1.Linked_List.Conclusion
+namespace Tests.Linked_List.Conclusion
 {
 	[TestClass]
 	public class TestFlattenaMultilevelDoublyLinkedList

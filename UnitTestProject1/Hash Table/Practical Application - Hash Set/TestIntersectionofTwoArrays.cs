@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Hash_Table.Practical_Application___Hash_Set;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Hash_Table.Practical_Application___Hash_Set
+namespace Tests.Hash_Table.Practical_Application___Hash_Set
 {
 	[TestClass]
 	public class TestIntersectionofTwoArrays

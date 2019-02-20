@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UnitTestProject1.Questões_Soltas
+namespace Tests.Questões_Soltas
 {
 	[TestClass]
 	public class TestTextJustification

@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Hash_Table.Conclusion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Hash_Table.Conclusion
+namespace Tests.Hash_Table.Conclusion
 {
 	[TestClass]
 	public class TestFourSumII

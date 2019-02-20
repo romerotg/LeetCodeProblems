@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
-namespace UnitTestProject1.Hash_Table.Practical_Application___Design_the_Key
+namespace Tests.Hash_Table.Practical_Application___Design_the_Key
 {
 	[TestClass]
 	public class TestGroupAnagramsQ

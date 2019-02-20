@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.Binary_Tree.Solve_Problems_Recursively.MaximumDepthofBinaryTree;
 
-namespace UnitTestProject1.Binary_Tree.Solve_Problems_Recursively
+namespace Tests.Binary_Tree.Solve_Problems_Recursively
 {
 	[TestClass]
 	public class TestMaximumDepthofBinaryTree

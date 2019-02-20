@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.Binary_Tree.Conclusion.PopulatingNextRightPointersinEachNodeII;
 
-namespace UnitTestProject1.Binary_Tree.Conclusion
+namespace Tests.Binary_Tree.Conclusion
 {
 	[TestClass]
 	public class TestPopulatingNextRightPointersinEachNodeII

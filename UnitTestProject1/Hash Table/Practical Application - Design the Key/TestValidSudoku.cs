@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Hash_Table.Practical_Application___Design_the_Key;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Hash_Table.Practical_Application___Design_the_Key
+namespace Tests.Hash_Table.Practical_Application___Design_the_Key
 {
 	[TestClass]
 	public class TestValidSudoku

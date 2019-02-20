@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Queue_and_Stack.Queue_and_BFS;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Queue_and_Stack.Queue_and_BFS
+namespace Tests.Queue_and_Stack.Queue_and_BFS
 {
 	[TestClass]
 	public class TestNumberofIslands

@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
-namespace UnitTestProject1.Hash_Table.Conclusion
+namespace Tests.Hash_Table.Conclusion
 {
 	[TestClass]
 	public class TestTopKFrequentElements

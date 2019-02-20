@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Reflection;
 
-namespace UnitTestProject1.Queue_and_Stack.Queue
+namespace Tests.Queue_and_Stack.Queue
 {
 	[TestClass]
 	public class TestMyCircularQueue

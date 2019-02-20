@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.Linked_List.Two_Pointer_Technique.LinkedListCycleII;
 
-namespace UnitTestProject1.Linked_List.Two_Pointer_Technique
+namespace Tests.Linked_List.Two_Pointer_Technique
 {
 	[TestClass]
 	public class TestLinkedListCycleII

@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestProject1.Linked_List.Doubly_Linked_List
+namespace Tests.Linked_List.Doubly_Linked_List
 {
 	[TestClass]
 	public class TestMyLinkedList

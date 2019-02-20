@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Array_and_String.Two_Pointer_Technique;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Array_and_String.Two_Pointer_Technique
+namespace Tests.Array_and_String.Two_Pointer_Technique
 {
 	[TestClass]
 	public class TestArrayPartitionI

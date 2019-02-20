@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Array_and_String.Introduction_to_2D_Array;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Array_and_String.Introduction_to_2D_Array
+namespace Tests.Array_and_String.Introduction_to_2D_Array
 {
 	[TestClass]
 	public class TestDiagonalTransverse

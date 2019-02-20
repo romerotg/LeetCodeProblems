@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Reflection;
 
-namespace UnitTestProject1.Linked_List.Singly_Linked_List
+namespace Tests.Linked_List.Singly_Linked_List
 {
 	[TestClass]
 	public class TestMyLinkedList

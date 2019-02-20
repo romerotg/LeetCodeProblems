@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using static LeetCodeProblems.Binary_Tree.Traverse_A_Tree.BinaryTreeLevelTraversal;
 
-namespace UnitTestProject1.Binary_Tree.Traverse_A_Tre
+namespace Tests.Binary_Tree.Traverse_A_Tre
 {
 	[TestClass]
 	public class TestBinaryTreeLevelTraversal

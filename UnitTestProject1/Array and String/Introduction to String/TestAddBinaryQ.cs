@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Array_and_String.Introduction_to_String;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Array_and_String.Introduction_to_String
+namespace Tests.Array_and_String.Introduction_to_String
 {
 	[TestClass]
 	public class TestAddBinaryQ

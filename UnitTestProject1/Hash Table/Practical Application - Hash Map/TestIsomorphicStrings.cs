@@ -1,7 +1,7 @@
 ﻿using LeetCodeProblems.Hash_Table.Practical_Application___Hash_Map;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnitTestProject1.Hash_Table.Practical_Application___Hash_Map
+namespace Tests.Hash_Table.Practical_Application___Hash_Map
 {
 	[TestClass]
 	public class TestIsomorphicStrings

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnitTestProject1.Array_and_String.Introduction_to_String
+namespace Tests.Array_and_String.Introduction_to_String
 {
 	[TestClass]
 	public class TestLongestCommonPrefixQ

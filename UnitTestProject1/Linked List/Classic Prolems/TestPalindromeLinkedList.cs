@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using static LeetCodeProblems.Linked_List.Classic_Problems.PalindromeLinkedList;
 
-namespace UnitTestProject1.Linked_List.Classic_Prolems
+namespace Tests.Linked_List.Classic_Prolems
 {
 	[TestClass]
 	public class TestPalindromeLinkedList
