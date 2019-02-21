@@ -112,6 +112,9 @@
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycleII.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestRemoveNthNodeFromEndofList.cs" />
     <Compile Include="Questões Soltas\TestTextJustification.cs" />
+    <Compile Include="Queue and Stack\Conclusion\TestDecodeStringQ.cs" />
+    <Compile Include="Queue and Stack\Conclusion\TestMyStack.cs" />
+    <Compile Include="Queue and Stack\Conclusion\TestMyQueue.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestNumberofIslands.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestOpentheLock.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\TestPerfectSquares.cs" />
