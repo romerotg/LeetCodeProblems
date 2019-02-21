@@ -1,5 +1,7 @@
-﻿using LeetCodeProblems.Linked_List.Singly_Linked_List;
+﻿using LeetCodeProblems.Queue_and_Stack.Stack_and_DFS;
 using System;
+using System.Collections.Generic;
+using static LeetCodeProblems.Queue_and_Stack.Stack_and_DFS.CloneGraphQ;
 
 namespace LeetCodeProblems
 {
@@ -7,18 +9,10 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			MyLinkedList linkedList = new MyLinkedList();
-			linkedList.AddAtHead(7);
-			linkedList.AddAtTail(7);
-			linkedList.AddAtHead(9);
-			linkedList.AddAtTail(8);
-			linkedList.AddAtHead(6);
-			linkedList.AddAtHead(0);
-			int val1 = linkedList.Get(5);
-			linkedList.AddAtHead(0);
-			int val2 = linkedList.Get(2);
-			int val3 = linkedList.Get(5);
-			linkedList.AddAtTail(4);
+			UndirectedGraphNode node = new UndirectedGraphNode(0);
+			node.neighbors = new List<UndirectedGraphNode>() { node, node };
+			CloneGraphQ question = new CloneGraphQ();
+			UndirectedGraphNode clone = question.CloneGraph(node);
 			Console.ReadKey();
 		}
 	}
