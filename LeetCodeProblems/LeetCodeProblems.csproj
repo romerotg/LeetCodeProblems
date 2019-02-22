@@ -118,6 +118,9 @@
     <Compile Include="Question2.cs" />
     <Compile Include="Questões Soltas\TextJustification.cs" />
     <Compile Include="Queue and Stack\Conclusion\DecodeStringQ.cs" />
+    <Compile Include="Queue and Stack\Conclusion\FloodFillQ.cs" />
+    <Compile Include="Queue and Stack\Conclusion\KeysandRooms.cs" />
+    <Compile Include="Queue and Stack\Conclusion\Matrix01.cs" />
     <Compile Include="Queue and Stack\Conclusion\MyQueue.cs" />
     <Compile Include="Queue and Stack\Conclusion\MyStack.cs" />
     <Compile Include="Queue and Stack\Queue and BFS\NumberofIslands.cs" />
