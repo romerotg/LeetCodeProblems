@@ -64,6 +64,9 @@
     <Compile Include="Array and String\Two-Pointer Technique\RemoveElementQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\ReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TwoSumII.cs" />
+    <Compile Include="Binary Search\Background\BinarySearch.cs" />
+    <Compile Include="Binary Search\TemplateI\GuessNumberHigherorLower.cs" />
+    <Compile Include="Binary Search\TemplateI\SqrtX.cs" />
     <Compile Include="Binary Tree\Conclusion\ConstructBinaryTreefromInorderandPostorderTraversal.cs" />
     <Compile Include="Binary Tree\Conclusion\ConstructBinaryTreefromPreorderandInorderTraversal.cs" />
     <Compile Include="Binary Tree\Conclusion\LowestCommonAncestorofaBinaryTree.cs" />

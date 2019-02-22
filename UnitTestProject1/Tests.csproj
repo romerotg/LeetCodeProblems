@@ -70,6 +70,8 @@
     <Compile Include="Array and String\Two-Pointer Technique\TestRemoveElementQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TestReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TestTwoSumII.cs" />
+    <Compile Include="Binary Search\Background\TestBinarySearch.cs" />
+    <Compile Include="Binary Search\TemplateI\TestSqrtX.cs" />
     <Compile Include="Binary Tree\Conclusion\TestLowestCommonAncestorofaBinaryTree.cs" />
     <Compile Include="Binary Tree\Conclusion\TestPopulatingNextRightPointersinEachNode.cs" />
     <Compile Include="Binary Tree\Conclusion\TestPopulatingNextRightPointersinEachNodeII.cs" />
