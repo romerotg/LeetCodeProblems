@@ -1,7 +1,5 @@
-﻿using LeetCodeProblems.Queue_and_Stack.Stack_and_DFS;
+﻿using LeetCodeProblems.Binary_Search.TemplateII;
 using System;
-using System.Collections.Generic;
-using static LeetCodeProblems.Queue_and_Stack.Stack_and_DFS.CloneGraphQ;
 
 namespace LeetCodeProblems
 {
@@ -9,10 +7,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			UndirectedGraphNode node = new UndirectedGraphNode(0);
-			node.neighbors = new List<UndirectedGraphNode>() { node, node };
-			CloneGraphQ question = new CloneGraphQ();
-			UndirectedGraphNode clone = question.CloneGraph(node);
+			FirstBadVersion question = new FirstBadVersion();
+			question.firstBadVersion(5);
 			Console.ReadKey();
 		}
 	}
