@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace LeetCodeProblems.Hash_Table.Practical_Application___Hash_Map
 {

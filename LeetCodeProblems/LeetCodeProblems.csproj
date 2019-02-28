@@ -68,6 +68,9 @@
     <Compile Include="Binary Search\Conclusion\FindSmallestLetterGreaterThanTarget.cs" />
     <Compile Include="Binary Search\Conclusion\Pow.cs" />
     <Compile Include="Binary Search\Conclusion\ValidPerfectSquare.cs" />
+    <Compile Include="Binary Search\More Practices\FindMinimuminRotatedSortedArrayII.cs" />
+    <Compile Include="Binary Search\More Practices\IntersectionofTwoArrays.cs" />
+    <Compile Include="Binary Search\More Practices\TwoSumII.cs" />
     <Compile Include="Binary Search\TemplateIII\FindKClosestElements.cs" />
     <Compile Include="Binary Search\TemplateIII\SeachforaRange.cs" />
     <Compile Include="Binary Search\TemplateII\FindMinimuminRotatedSortedArray.cs" />
