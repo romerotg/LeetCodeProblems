@@ -65,6 +65,9 @@
     <Compile Include="Array and String\Two-Pointer Technique\ReverseStringQ.cs" />
     <Compile Include="Array and String\Two-Pointer Technique\TwoSumII.cs" />
     <Compile Include="Binary Search\Background\BinarySearch.cs" />
+    <Compile Include="Binary Search\Conclusion\FindSmallestLetterGreaterThanTarget.cs" />
+    <Compile Include="Binary Search\Conclusion\Pow.cs" />
+    <Compile Include="Binary Search\Conclusion\ValidPerfectSquare.cs" />
     <Compile Include="Binary Search\TemplateIII\FindKClosestElements.cs" />
     <Compile Include="Binary Search\TemplateIII\SeachforaRange.cs" />
     <Compile Include="Binary Search\TemplateII\FindMinimuminRotatedSortedArray.cs" />
