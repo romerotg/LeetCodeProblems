@@ -68,6 +68,8 @@
     <Compile Include="Binary Search\Conclusion\FindSmallestLetterGreaterThanTarget.cs" />
     <Compile Include="Binary Search\Conclusion\Pow.cs" />
     <Compile Include="Binary Search\Conclusion\ValidPerfectSquare.cs" />
+    <Compile Include="Binary Search\More Practices II\FindKthSmallestPairDistance.cs" />
+    <Compile Include="Binary Search\More Practices II\FindtheDuplicateNumber.cs" />
     <Compile Include="Binary Search\More Practices\FindMinimuminRotatedSortedArrayII.cs" />
     <Compile Include="Binary Search\More Practices\IntersectionofTwoArrays.cs" />
     <Compile Include="Binary Search\More Practices\TwoSumII.cs" />

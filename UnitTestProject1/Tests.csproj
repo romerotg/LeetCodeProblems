@@ -74,6 +74,8 @@
     <Compile Include="Binary Search\Conclusion\TestFindSmallestLetterGreaterThanTarget.cs" />
     <Compile Include="Binary Search\Conclusion\TestPow.cs" />
     <Compile Include="Binary Search\Conclusion\TestValidPerfectSquare.cs" />
+    <Compile Include="Binary Search\More Practices II\TestFindKthSmallestPairDistance.cs" />
+    <Compile Include="Binary Search\More Practices II\TestFindtheDuplicateNumber.cs" />
     <Compile Include="Binary Search\More Practices\TestFindMinimuminRotatedSortedArrayII.cs" />
     <Compile Include="Binary Search\More Practices\TestIntersectionofTwoArrays.cs" />
     <Compile Include="Binary Search\More Practices\TestTwoSumII.cs" />
