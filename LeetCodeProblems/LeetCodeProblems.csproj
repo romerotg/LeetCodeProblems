@@ -152,10 +152,16 @@
     <Compile Include="Queue and Stack\Stack\EvaluateReversePolishNotation.cs" />
     <Compile Include="Queue and Stack\Stack\MinStack.cs" />
     <Compile Include="Queue and Stack\Stack\ValidParentheses.cs" />
+    <Compile Include="Recursion I\Principle of Recursion\ReverseStringQ.cs" />
+    <Compile Include="Recursion I\Principle of Recursion\SwapNodesinPairs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Recursion I\Conclusion\" />
+    <Folder Include="Recursion I\Memoization\" />
+    <Folder Include="Recursion I\Recurrence Relation\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

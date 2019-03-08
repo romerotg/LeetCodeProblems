@@ -15,8 +15,7 @@ namespace LeetCodeProblems.Binary_Search.More_Practices_II
 			for (int i = 0; i < nums.Length; i++)
 				for (int j = i + 1; j < nums.Length; j++)
 					distances.Add(Math.Abs(nums[i] - nums[j]));
-			SortedList<int, int> sorted = new SortedList<int, int>();
-			sorted.Add(
+
 			distances.Sort();
 			return distances[k - 1];
 		}
