@@ -146,6 +146,9 @@
     <Compile Include="Queue and Stack\Stack\TestValidParentheses.cs" />
     <Compile Include="Recursion I\Principle of Recursion\TestReverseStringQ.cs" />
     <Compile Include="Recursion I\Principle of Recursion\TestSwapNodesinPairs.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\TestPascalTriangle.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\TestPascalTriangleII.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\TestReverseLinkedList.cs" />
     <Compile Include="TestQuestion1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -161,7 +164,6 @@
   <ItemGroup>
     <Folder Include="Recursion I\Conclusion\" />
     <Folder Include="Recursion I\Memoization\" />
-    <Folder Include="Recursion I\Recurrence Relation\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

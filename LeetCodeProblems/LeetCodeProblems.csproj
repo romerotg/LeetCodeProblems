@@ -154,6 +154,9 @@
     <Compile Include="Queue and Stack\Stack\ValidParentheses.cs" />
     <Compile Include="Recursion I\Principle of Recursion\ReverseStringQ.cs" />
     <Compile Include="Recursion I\Principle of Recursion\SwapNodesinPairs.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\PascalTriangle.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\PascalTriangleII.cs" />
+    <Compile Include="Recursion I\Recurrence Relation\ReverseLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -161,7 +164,6 @@
   <ItemGroup>
     <Folder Include="Recursion I\Conclusion\" />
     <Folder Include="Recursion I\Memoization\" />
-    <Folder Include="Recursion I\Recurrence Relation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
