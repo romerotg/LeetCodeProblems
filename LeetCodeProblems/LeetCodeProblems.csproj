@@ -152,6 +152,10 @@
     <Compile Include="Queue and Stack\Stack\EvaluateReversePolishNotation.cs" />
     <Compile Include="Queue and Stack\Stack\MinStack.cs" />
     <Compile Include="Queue and Stack\Stack\ValidParentheses.cs" />
+    <Compile Include="Recursion I\Complexity Analysis\MaximumDepthofBinaryTree.cs" />
+    <Compile Include="Recursion I\Complexity Analysis\Pow.cs" />
+    <Compile Include="Recursion I\Memoization\ClimbingStairs.cs" />
+    <Compile Include="Recursion I\Memoization\FibonacciNumber.cs" />
     <Compile Include="Recursion I\Principle of Recursion\ReverseStringQ.cs" />
     <Compile Include="Recursion I\Principle of Recursion\SwapNodesinPairs.cs" />
     <Compile Include="Recursion I\Recurrence Relation\PascalTriangle.cs" />
@@ -163,7 +167,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursion I\Conclusion\" />
-    <Folder Include="Recursion I\Memoization\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

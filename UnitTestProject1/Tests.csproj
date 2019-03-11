@@ -144,6 +144,10 @@
     <Compile Include="Queue and Stack\Stack\TestEvaluateReversePolishNotation.cs" />
     <Compile Include="Queue and Stack\Stack\TestMinStack.cs" />
     <Compile Include="Queue and Stack\Stack\TestValidParentheses.cs" />
+    <Compile Include="Recursion I\Complexity Analysis\TestMaximumDepthofBinaryTree.cs" />
+    <Compile Include="Recursion I\Complexity Analysis\TestPow.cs" />
+    <Compile Include="Recursion I\Memoization\TestClimbingStairs.cs" />
+    <Compile Include="Recursion I\Memoization\TestFibonacciNumber.cs" />
     <Compile Include="Recursion I\Principle of Recursion\TestReverseStringQ.cs" />
     <Compile Include="Recursion I\Principle of Recursion\TestSwapNodesinPairs.cs" />
     <Compile Include="Recursion I\Recurrence Relation\TestPascalTriangle.cs" />
@@ -163,7 +167,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursion I\Conclusion\" />
-    <Folder Include="Recursion I\Memoization\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
