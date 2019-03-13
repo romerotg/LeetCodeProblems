@@ -1,5 +1,6 @@
-﻿using LeetCodeProblems.Binary_Search.TemplateII;
+﻿using LeetCodeProblems.Recursion_I.Conclusion;
 using System;
+using System.Collections.Generic;
 
 namespace LeetCodeProblems
 {
@@ -7,8 +8,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			FirstBadVersion question = new FirstBadVersion();
-			question.firstBadVersion(5);
+			UniqueBinarySearchTreesII question = new UniqueBinarySearchTreesII();
+			IList<TreeNode> trees = question.GenerateTrees(3);
 			Console.ReadKey();
 		}
 	}
