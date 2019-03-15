@@ -1,42 +1,51 @@
-﻿using System;
-
-namespace LeetCodeProblems.Codility_Problems.Prefix_Sums
+﻿namespace LeetCodeProblems.Codility_Problems.Prefix_Sums
 {
 	public class GenomicRangeQuery
 	{
 		public int[] solution(string S, int[] P, int[] Q)
 		{
-			int[] dna = new int[S.Length];
+			int[] result = new int[P.Length];
+			int[,] dnaCount = new int[S.Length, 4];
 
 			for (int i = 0; i < S.Length; i++)
 			{
 				switch (S[i])
 				{
 					case 'A':
-						dna[i] = 1;
+						dnaCount[i, 0] = 1;
 						break;
 					case 'C':
-						dna[i] = 2;
+						dnaCount[i, 1] = 1;
 						break;
 					case 'G':
-						dna[i] = 3;
+						dnaCount[i, 2] = 1;
 						break;
 					case 'T':
-						dna[i] = 4;
+						dnaCount[i, 3] = 1;
 						break;
+				}
+
+				if (i > 0)
+				{
+					for (int j = 0; j < 4; j++)
+						dnaCount[i, j] += dnaCount[i - 1, j];
 				}
 			}
 
-			int[] result = new int[P.Length];
-
 			for (int i = 0; i < result.Length; i++)
 			{
-				int min = int.MaxValue; ;
+				int x = P[i];
+				int y = Q[i];
 
-				for (int j = P[i]; j <= Q[i]; j++)
-					min = Math.Min(min, dna[j]);
-
-				result[i] = min;
+				for (int j = 0; j < 4; j++)
+				{
+					int sub = x > 0 ? dnaCount[x - 1, j] : 0;
+					if (dnaCount[y, j] - sub > 0)
+					{
+						result[i] = j + 1;
+						break;
+					}
+				}
 			}
 
 			return result;

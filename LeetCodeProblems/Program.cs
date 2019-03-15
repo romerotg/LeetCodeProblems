@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Codility_Problems.Counting_Elements;
+﻿using LeetCodeProblems.Codility_Problems.Prefix_Sums;
 using System;
 
 namespace LeetCodeProblems
@@ -7,8 +7,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			MissingInteger question = new MissingInteger();
-			int missing = question.solution(new int[] { 0, 1000000 });
+			GenomicRangeQuery question = new GenomicRangeQuery();
+			int[] ans = question.solution("CAGCCTA", new int[] {2, 5, 0}, new int[] { 4, 5, 6 });
 			Console.ReadKey();
 		}
 	}
