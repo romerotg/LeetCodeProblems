@@ -1,4 +1,4 @@
-﻿using LeetCodeProblems.Codility_Problems.Prefix_Sums;
+﻿using LeetCodeProblems.Codility_Problems.Stacks_and_Queues;
 using System;
 
 namespace LeetCodeProblems
@@ -7,8 +7,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			GenomicRangeQuery question = new GenomicRangeQuery();
-			int[] ans = question.solution("CAGCCTA", new int[] {2, 5, 0}, new int[] { 4, 5, 6 });
+			Fish question = new Fish();
+			int ans = question.solution(new int[] { 4, 3, 2, 1, 5 }, new int[] { 0, 1, 0, 0, 0 });
 			Console.ReadKey();
 		}
 	}

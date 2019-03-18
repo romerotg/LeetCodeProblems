@@ -101,8 +101,15 @@
     <Compile Include="Codility Problems\Counting Elements\MissingInteger.cs" />
     <Compile Include="Codility Problems\Counting Elements\PermCheck.cs" />
     <Compile Include="Codility Problems\Iterations\BinaryGap.cs" />
+    <Compile Include="Codility Problems\Prefix Sums\CountDiv.cs" />
     <Compile Include="Codility Problems\Prefix Sums\GenomicRangeQuery.cs" />
+    <Compile Include="Codility Problems\Prefix Sums\MinAvgTwoSlice.cs" />
     <Compile Include="Codility Problems\Prefix Sums\PassingCars.cs" />
+    <Compile Include="Codility Problems\Sorting\Distinct.cs" />
+    <Compile Include="Codility Problems\Sorting\MaxProductOfThree.cs" />
+    <Compile Include="Codility Problems\Sorting\NumberOfDiscIntersections.cs" />
+    <Compile Include="Codility Problems\Sorting\Triangle.cs" />
+    <Compile Include="Codility Problems\Stacks and Queues\Fish.cs" />
     <Compile Include="Codility Problems\Time Complexity\FrogJmp.cs" />
     <Compile Include="Codility Problems\Time Complexity\PermMissingElem.cs" />
     <Compile Include="Codility Problems\Time Complexity\TapeEquilibrium.cs" />
