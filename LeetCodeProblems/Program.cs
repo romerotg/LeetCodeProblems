@@ -7,8 +7,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			Fish question = new Fish();
-			int ans = question.solution(new int[] { 4, 3, 2, 1, 5 }, new int[] { 0, 1, 0, 0, 0 });
+			StoneWall question = new StoneWall();
+			int ans = question.solution(new int[] { 8, 8, 5, 7, 9, 8, 7, 4, 8 });
 			Console.ReadKey();
 		}
 	}
