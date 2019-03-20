@@ -110,6 +110,11 @@
     <Compile Include="Codility Problems\Prefix Sums\GenomicRangeQuery.cs" />
     <Compile Include="Codility Problems\Prefix Sums\MinAvgTwoSlice.cs" />
     <Compile Include="Codility Problems\Prefix Sums\PassingCars.cs" />
+    <Compile Include="Codility Problems\Prime and composite numbers\CountFactors.cs" />
+    <Compile Include="Codility Problems\Prime and composite numbers\Flags.cs" />
+    <Compile Include="Codility Problems\Prime and composite numbers\MinPerimeterRectangle.cs" />
+    <Compile Include="Codility Problems\Prime and composite numbers\Peaks.cs" />
+    <Compile Include="Codility Problems\Sieve of Eratosthenes\CountSemiprimes.cs" />
     <Compile Include="Codility Problems\Sorting\Distinct.cs" />
     <Compile Include="Codility Problems\Sorting\MaxProductOfThree.cs" />
     <Compile Include="Codility Problems\Sorting\NumberOfDiscIntersections.cs" />
