@@ -100,6 +100,10 @@
     <Compile Include="Codility Problems\Counting Elements\MaxCounters.cs" />
     <Compile Include="Codility Problems\Counting Elements\MissingInteger.cs" />
     <Compile Include="Codility Problems\Counting Elements\PermCheck.cs" />
+    <Compile Include="Codility Problems\Euclidean algorithm\ChocolatesByNumbers.cs" />
+    <Compile Include="Codility Problems\Euclidean algorithm\CommonPrimeDivisors.cs" />
+    <Compile Include="Codility Problems\Fibonacci numbers\FibFrog.cs" />
+    <Compile Include="Codility Problems\Fibonacci numbers\Ladder.cs" />
     <Compile Include="Codility Problems\Iterations\BinaryGap.cs" />
     <Compile Include="Codility Problems\Leader\Dominator.cs" />
     <Compile Include="Codility Problems\Leader\EquiLeader.cs" />
@@ -114,6 +118,7 @@
     <Compile Include="Codility Problems\Prime and composite numbers\Flags.cs" />
     <Compile Include="Codility Problems\Prime and composite numbers\MinPerimeterRectangle.cs" />
     <Compile Include="Codility Problems\Prime and composite numbers\Peaks.cs" />
+    <Compile Include="Codility Problems\Sieve of Eratosthenes\CountNonDivisible.cs" />
     <Compile Include="Codility Problems\Sieve of Eratosthenes\CountSemiprimes.cs" />
     <Compile Include="Codility Problems\Sorting\Distinct.cs" />
     <Compile Include="Codility Problems\Sorting\MaxProductOfThree.cs" />
