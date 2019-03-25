@@ -1,6 +1,6 @@
-﻿using LeetCodeProblems.Codility_Problems.Fibonacci_numbers;
+﻿using LeetCodeProblems.Codility_Problems.Binary_search_algorithm;
+using LeetCodeProblems.Codility_Problems.Caterpillar_method;
 using System;
-using System.Collections.Generic;
 
 namespace LeetCodeProblems
 {
@@ -8,8 +8,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			LongestDominoesSequenceQ question = new LongestDominoesSequenceQ();
-			int ans = question.solution(new List<Tuple<int, int>>() { Tuple.Create(4, 2), Tuple.Create(4, 3), Tuple.Create(3, 6), Tuple.Create(6, 6), Tuple.Create(1, 1), Tuple.Create(1, 1), Tuple.Create(0, 0) });
+			CountTriangles question = new CountTriangles();
+			int ans = question.solution(new int[] { 10, 2, 5, 1, 8, 12 });
 			Console.WriteLine($"ans: {ans}");
 			Console.ReadKey();
 		}

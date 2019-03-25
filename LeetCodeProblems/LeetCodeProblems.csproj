@@ -96,6 +96,11 @@
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreePreorderTraversal.cs" />
     <Compile Include="Codility Problems\Arrays\CyclicRotation.cs" />
     <Compile Include="Codility Problems\Arrays\OddOccurrencesInArray.cs" />
+    <Compile Include="Codility Problems\Binary search algorithm\MinMaxDivision.cs" />
+    <Compile Include="Codility Problems\Binary search algorithm\NailingPlanks.cs" />
+    <Compile Include="Codility Problems\Caterpillar method\AbsDistinct.cs" />
+    <Compile Include="Codility Problems\Caterpillar method\CountDistinctSlices.cs" />
+    <Compile Include="Codility Problems\Caterpillar method\CountTriangles.cs" />
     <Compile Include="Codility Problems\Counting Elements\FrogRiverOne.cs" />
     <Compile Include="Codility Problems\Counting Elements\MaxCounters.cs" />
     <Compile Include="Codility Problems\Counting Elements\MissingInteger.cs" />
