@@ -136,6 +136,7 @@
     <Compile Include="Codility Problems\Time Complexity\FrogJmp.cs" />
     <Compile Include="Codility Problems\Time Complexity\PermMissingElem.cs" />
     <Compile Include="Codility Problems\Time Complexity\TapeEquilibrium.cs" />
+    <Compile Include="CountCircularPrimes.cs" />
     <Compile Include="Hash Table\Conclusion\FourSumII.cs" />
     <Compile Include="Hash Table\Conclusion\RandomizedSet.cs" />
     <Compile Include="Hash Table\Conclusion\JewelsandStones.cs" />

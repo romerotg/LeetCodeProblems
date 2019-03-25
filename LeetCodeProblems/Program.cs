@@ -1,5 +1,4 @@
-﻿using LeetCodeProblems.Codility_Problems.Binary_search_algorithm;
-using LeetCodeProblems.Codility_Problems.Caterpillar_method;
+﻿using LeetCodeProblems.Codility_Problems.Caterpillar_method;
 using System;
 
 namespace LeetCodeProblems
@@ -8,8 +7,20 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			CountTriangles question = new CountTriangles();
-			int ans = question.solution(new int[] { 10, 2, 5, 1, 8, 12 });
+			CountCircularPrimes question = new CountCircularPrimes();
+			int ans = question.solution(1);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(10);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(100);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(1000);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(10000);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(100000);
+			Console.WriteLine($"ans: {ans}");
+			ans = question.solution(1000000);
 			Console.WriteLine($"ans: {ans}");
 			Console.ReadKey();
 		}
