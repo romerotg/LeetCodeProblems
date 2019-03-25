@@ -7,20 +7,16 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			CountCircularPrimes question = new CountCircularPrimes();
-			int ans = question.solution(1);
+			DominoToptal question = new DominoToptal();
+			int ans = question.solution("1-1,3-5,5-2,2-3,2-4");
 			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(10);
+			ans = question.solution("1-1");
 			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(100);
+			ans = question.solution("1-2,1-2");
 			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(1000);
+			ans = question.solution("3-2,2-1,1-4,4-4,5-4,4-2,2-1");
 			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(10000);
-			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(100000);
-			Console.WriteLine($"ans: {ans}");
-			ans = question.solution(1000000);
+			ans = question.solution("5-5,5-5,4-4,5-5,5-5,5-5,5-5,5-5,5-5,5-5");
 			Console.WriteLine($"ans: {ans}");
 			Console.ReadKey();
 		}
