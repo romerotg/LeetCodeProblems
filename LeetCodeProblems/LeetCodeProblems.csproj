@@ -101,6 +101,7 @@
     <Compile Include="Codility Problems\Caterpillar method\AbsDistinct.cs" />
     <Compile Include="Codility Problems\Caterpillar method\CountDistinctSlices.cs" />
     <Compile Include="Codility Problems\Caterpillar method\CountTriangles.cs" />
+    <Compile Include="Codility Problems\Caterpillar method\MinAbsSumOfTwo.cs" />
     <Compile Include="Codility Problems\Counting Elements\FrogRiverOne.cs" />
     <Compile Include="Codility Problems\Counting Elements\MaxCounters.cs" />
     <Compile Include="Codility Problems\Counting Elements\MissingInteger.cs" />
@@ -109,6 +110,8 @@
     <Compile Include="Codility Problems\Euclidean algorithm\CommonPrimeDivisors.cs" />
     <Compile Include="Codility Problems\Fibonacci numbers\FibFrog.cs" />
     <Compile Include="Codility Problems\Fibonacci numbers\Ladder.cs" />
+    <Compile Include="Codility Problems\Greedy algorithms\MaxNonoverlappingSegments.cs" />
+    <Compile Include="Codility Problems\Greedy algorithms\TieRopes.cs" />
     <Compile Include="Codility Problems\Iterations\BinaryGap.cs" />
     <Compile Include="Codility Problems\Leader\Dominator.cs" />
     <Compile Include="Codility Problems\Leader\EquiLeader.cs" />
