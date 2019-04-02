@@ -1,7 +1,5 @@
-﻿using LeetCodeProblems.Codility_Problems.Caterpillar_method;
-using LeetCodeProblems.Codility_Problems.Dynamic_programming;
-using LeetCodeProblems.Codility_Problems.Sorting;
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCodeProblems
 {
@@ -9,9 +7,10 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			CountCarryOperations question = new CountCarryOperations();
-			int ans = question.solution(20, 82);
-			Console.WriteLine($"ans: {ans}");
+			SumDigits question = new SumDigits();
+			Console.WriteLine(question.CalculateSumOfDigits(1));
+			Console.WriteLine(question.CalculateSumOfDigits(11));
+			Console.WriteLine(question.CalculateSumOfDigits(12));
 			Console.ReadKey();
 		}
 	}
