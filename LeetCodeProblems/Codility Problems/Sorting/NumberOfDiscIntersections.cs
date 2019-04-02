@@ -9,33 +9,41 @@ namespace LeetCodeProblems.Codility_Problems.Sorting
 			if (A == null || A.Length < 2)
 				return 0;
 
-			long[] upper = new long[A.Length];
+			long[] higher = new long[A.Length];
 			long[] lower = new long[A.Length];
 
 			for (int i = 0; i < A.Length; i++)
 			{
 				lower[i] = (long)i - A[i];
-				upper[i] = (long)i + A[i];
+				higher[i] = (long)i + A[i];
 			}
 
 			Array.Sort(lower);
-			Array.Sort(upper);
+			Array.Sort(higher);
 
+			int discsOpened = 0;
 			int intersections = 0;
-			int j = 0;
+			int l = 0;
+			int h = 0;
 
-			for (int i = 0; i < A.Length; i++)
+			while (l < lower.Length)
 			{
-				while (j < A.Length && upper[i] >= lower[j])
+				if (h < higher.Length && higher[h] < lower[l])
 				{
-					intersections += j; // add j intersections
-					intersections -= i; // minus i (avoid double count and self intersection)
-					if (intersections > 10_000_000)
-						return -1;
-					j++;
+					discsOpened--;
+					h++;
 				}
+				else
+				{
+					intersections += discsOpened;
+					discsOpened++;
+					l++;
+				}
+
+				if (intersections > 10000000)
+					return -1;
 			}
-			
+
 			return intersections;
 		}
 	}

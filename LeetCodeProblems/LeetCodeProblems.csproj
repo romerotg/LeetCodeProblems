@@ -106,6 +106,8 @@
     <Compile Include="Codility Problems\Counting Elements\MaxCounters.cs" />
     <Compile Include="Codility Problems\Counting Elements\MissingInteger.cs" />
     <Compile Include="Codility Problems\Counting Elements\PermCheck.cs" />
+    <Compile Include="Codility Problems\Dynamic programming\MinAbsSum.cs" />
+    <Compile Include="Codility Problems\Dynamic programming\NumberSolitaire.cs" />
     <Compile Include="Codility Problems\Euclidean algorithm\ChocolatesByNumbers.cs" />
     <Compile Include="Codility Problems\Euclidean algorithm\CommonPrimeDivisors.cs" />
     <Compile Include="Codility Problems\Fibonacci numbers\FibFrog.cs" />
@@ -139,6 +141,7 @@
     <Compile Include="Codility Problems\Time Complexity\FrogJmp.cs" />
     <Compile Include="Codility Problems\Time Complexity\PermMissingElem.cs" />
     <Compile Include="Codility Problems\Time Complexity\TapeEquilibrium.cs" />
+    <Compile Include="CountCarryOperations.cs" />
     <Compile Include="CountCircularPrimes.cs" />
     <Compile Include="DominoToptal.cs" />
     <Compile Include="Hash Table\Conclusion\FourSumII.cs" />
@@ -179,6 +182,9 @@
     <Compile Include="LongestDominoesSequenceQ.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TT\Q1.cs" />
+    <Compile Include="TT\Q2.cs" />
+    <Compile Include="TT\Q3.cs" />
     <Compile Include="Questões Soltas\TextJustification.cs" />
     <Compile Include="Queue and Stack\Conclusion\DecodeStringQ.cs" />
     <Compile Include="Queue and Stack\Conclusion\FloodFillQ.cs" />

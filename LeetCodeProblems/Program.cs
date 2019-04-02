@@ -1,4 +1,6 @@
 ﻿using LeetCodeProblems.Codility_Problems.Caterpillar_method;
+using LeetCodeProblems.Codility_Problems.Dynamic_programming;
+using LeetCodeProblems.Codility_Problems.Sorting;
 using System;
 
 namespace LeetCodeProblems
@@ -7,8 +9,8 @@ namespace LeetCodeProblems
 	{
 		static void Main(string[] args)
 		{
-			MinAbsSumOfTwo question = new MinAbsSumOfTwo();
-			int ans = question.solution(new int[] { 1000000000 });
+			CountCarryOperations question = new CountCarryOperations();
+			int ans = question.solution(20, 82);
 			Console.WriteLine($"ans: {ans}");
 			Console.ReadKey();
 		}
