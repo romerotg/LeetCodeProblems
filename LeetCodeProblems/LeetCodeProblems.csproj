@@ -95,6 +95,7 @@
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreeLevelTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreePostorderTraversal.cs" />
     <Compile Include="Binary Tree\Traverse A Tree\BinaryTreePreorderTraversal.cs" />
+    <Compile Include="CabralCapitalizar.cs" />
     <Compile Include="Codility Problems\Arrays\CyclicRotation.cs" />
     <Compile Include="Codility Problems\Arrays\OddOccurrencesInArray.cs" />
     <Compile Include="Codility Problems\Binary search algorithm\MinMaxDivision.cs" />

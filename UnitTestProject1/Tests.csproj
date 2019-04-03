@@ -126,6 +126,7 @@
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycle.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestLinkedListCycleII.cs" />
     <Compile Include="Linked List\Two Pointer Technique\TestRemoveNthNodeFromEndofList.cs" />
+    <Compile Include="TestCabralCapitalizar.cs" />
     <Compile Include="TT\TestQ1.cs" />
     <Compile Include="TT\TestQ2.cs" />
     <Compile Include="TT\TestQ3.cs" />
