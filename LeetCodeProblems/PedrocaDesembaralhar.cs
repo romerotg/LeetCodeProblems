@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Linq;
 
 namespace LeetCodeProblems
 {
@@ -86,31 +85,34 @@ namespace LeetCodeProblems
 		public string FindWord(string[] rules)
 		{
 			string result;
-			foreach (string rule in rules)
+
+			for (int i = 0; i < rules.Length; i++)
 			{
-				string[] temp = rules.Where(t => t != rule).ToArray();
-				result = _Calc(temp, rule[2], rule[0].ToString());
+				List<string> remainingRules = new List<string>(rules);
+				remainingRules.RemoveAt(i);
+				result = _FindWord(remainingRules, rules[i][0].ToString(), rules[i][2]);
 				if (result != null)
 					return result;
 			}
 
-			return "";
+			return string.Empty;
 		}
-		private string _Calc(string[] rules, char head, string currS)
+
+		private string _FindWord(List<string> rules, string currentWord, char next)
 		{
-			if (rules.Length == 0)
-				return currS + head;
+			if (rules.Count == 0)
+				return currentWord + next;
 
 			string result = null;
 
-			foreach (string rule in rules)
+			for (int i = 0; i < rules.Count; i++)
 			{
-				if (head == rule[0])
+				if (next == rules[i][0])
 				{
-					string word = String.Concat(currS, rule[0]);
-					string[] remainingRules = rules.Where(t => t != rule).ToArray();
-					//Console.WriteLine("testando {0} com regra {1}", currS + rule[0], rule[2]);
-					result = result ?? _Calc(remainingRules, rule[2], word);
+					string nextWord = currentWord + rules[i][0];
+					List<string> remainingRules = new List<string>(rules);
+					remainingRules.RemoveAt(i);
+					result = result ?? _FindWord(remainingRules, nextWord, rules[i][2]);
 				}
 			}
 
