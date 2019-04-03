@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace LeetCodeProblems
@@ -11,6 +12,11 @@ namespace LeetCodeProblems
 		public string CapitalizeString(string s)
 		{
 			if (s == null || s.Length == 0)
+				return s;
+
+			s = s.Trim();
+
+			if (s.Length == 0)
 				return s;
 
 			StringBuilder sb = new StringBuilder();
@@ -38,9 +44,11 @@ namespace LeetCodeProblems
 					shouldCapitalize = currShouldCapitalize;
 				}
 
-				sb.Append(c);
+				if (c != ' ' || sb[sb.Length - 1] != ' ')
+					sb.Append(c);
 			}
 
+			//return Regex.Replace(sb.ToString(), @"\s+", " ");
 			return sb.ToString();
 		}
 

@@ -7,8 +7,9 @@ namespace Tests
 	public class TestCabralCapitalizar
 	{
 		[DataRow("the conference has people who have come from Moscow,Idaho;Paris,Texas;London,Ohio; and other places as well.", "The conference has people who have come from Moscow, Idaho; Paris, Texas; London, Ohio; and other places as well.")]
+		[DataRow("inri!?mas que feze?!", "Inri!? Mas que feze?!")]
 		[DataRow("oi...tudo bom?", "Oi... Tudo bom?")]
-		[DataRow("mas o que é isso!?você está louco?!", "Mas o que é isso!? Você está louco?!")]
+		[DataRow("e ai boy?  blz?", "E ai boy? Blz?")]
 		[DataTestMethod]
 		public void TestMethod1(string s, string expected)
 		{
